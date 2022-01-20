@@ -1,0 +1,107 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.menu {
+    width: 100vw;
+    height: 15vh;
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: row;
+    padding-left: 20px;
+    padding-right: 60px;
+    background: rgb(194, 171, 159);
+}
+
+.menu img {
+    width: 130px;
+    height: 130px;
+}
+
+.menu ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu li {
+    padding-left: 20px;
+    list-style: none;
+}
+
+.menu li a {
+    font-family: 'Playfair Display', serif;
+    color: rgb(241, 237, 237);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.banner{
+    width: 100%;
+    height: 100vh;
+    background-image: url(imagens/logo.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left center;
+}
+
+.banner-text {
+    width: 27rem;
+    position: absolute;
+    bottom: 20px;
+    right: 50px;
+    
+}
+
+.banner p {
+    font-family: 'Playfair Display', serif;
+    color: rgb(241, 237, 237);
+    font-size: 5rem;
+}   
+
+.section-produto{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: rgb(53, 54, 58);
+}
+
+.produtos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.produto-anel, .produto-relogio, .produto-colar {
+    margin: 10px;
+}
+
+.anel, .relogio, .colar {
+    background-color: #fff;
+    text-align: center;
+}
+
+.anel p, .relogio p, .colar p {
+    padding: 10px;
+}
+
+.anel img, .relogio img, .colar img{
+    width: 300px;
+    height: 350px;
+}
