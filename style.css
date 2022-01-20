@@ -17,6 +17,7 @@ a {
     width: 100vw;
     height: 15vh;
     position: fixed;
+    z-index: 100000;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,6 +25,9 @@ a {
     padding-left: 20px;
     padding-right: 60px;
     background: rgb(194, 171, 159);
+    -webkit-box-shadow: -1px 3px 11px 1px rgba(0,0,0,0.32);
+    -moz-box-shadow: -1px 3px 11px 1px rgba(0,0,0,0.32);
+    box-shadow: -1px 3px 11px 1px rgba(0,0,0,0.32);
 }
 
 .menu img {
@@ -49,6 +53,11 @@ a {
     font-weight: 500;
 }
 
+.menu li a:hover {
+    color: rgba(84, 85, 87, 0.767);
+    transition: ease 0.5s;
+}
+
 .banner{
     width: 100%;
     height: 100vh;
@@ -62,7 +71,7 @@ a {
     width: 27rem;
     position: absolute;
     bottom: 20px;
-    right: 50px;
+    right: 44px;
     
 }
 
@@ -88,20 +97,67 @@ a {
     flex-direction: row;
 }
 
-.produto-anel, .produto-relogio, .produto-colar {
-    margin: 10px;
+.produto-anel, 
+.produto-relogio, 
+.produto-colar {
+    margin: 4%;
 }
 
-.anel, .relogio, .colar {
+.anel, 
+.relogio, 
+.colar {
     background-color: #fff;
     text-align: center;
 }
 
-.anel p, .relogio p, .colar p {
+.anel p, 
+.relogio p, 
+.colar p {
     padding: 10px;
 }
 
-.anel img, .relogio img, .colar img{
+.anel img, 
+.relogio img, 
+.colar img{
     width: 300px;
     height: 350px;
+}
+
+.produto-titulo {
+    font-family: 'Playfair Display', serif;
+    color: rgb(194, 171, 159);
+    font-size: 4rem;
+    font-weight: 500;
+    padding: 10px;
+}
+
+.produto-anel button,
+.produto-relogio button, 
+.produto-colar button{
+    width: 150px;
+    height: 55px;
+    text-align: center;
+    margin-left: 4.7rem;
+    margin-top: 1rem;
+    background: rgb(194, 171, 159);
+    outline: rgb(194, 171, 159);
+    border: 1px rgb(194, 171, 159);
+}
+
+.produto-anel button a, 
+.produto-relogio button a, 
+.produto-colar button a{
+    font-family: 'Playfair Display', serif;
+    color: rgb(53, 54, 58);
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.anel p, 
+.relogio p, 
+.colar p {
+    font-family: 'Playfair Display', serif;
+    color: rgb(53, 54, 58);
+    font-size: 1.6rem;
+    font-weight: 500;
 }
