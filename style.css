@@ -22,9 +22,9 @@ a {
     align-items: center;
     justify-content: space-between;
     flex-direction: row;
-    padding-left: 20px;
+    padding-left: 40px;
     padding-right: 60px;
-    background: rgb(194, 171, 159);
+    background-color: rgb(214, 194, 183);
     -webkit-box-shadow: -1px 3px 11px 1px rgba(0,0,0,0.32);
     -moz-box-shadow: -1px 3px 11px 1px rgba(0,0,0,0.32);
     box-shadow: -1px 3px 11px 1px rgba(0,0,0,0.32);
@@ -110,12 +110,6 @@ a {
     text-align: center;
 }
 
-.anel p, 
-.relogio p, 
-.colar p {
-    padding: 10px;
-}
-
 .anel img, 
 .relogio img, 
 .colar img{
@@ -125,7 +119,7 @@ a {
 
 .produto-titulo {
     font-family: 'Playfair Display', serif;
-    color: rgb(194, 171, 159);
+    color: rgb(214, 194, 183);
     font-size: 4rem;
     font-weight: 500;
     padding: 10px;
@@ -139,8 +133,8 @@ a {
     text-align: center;
     margin-left: 4.7rem;
     margin-top: 1rem;
-    background: rgb(194, 171, 159);
-    outline: rgb(194, 171, 159);
+    background-color: rgb(214, 194, 183);
+    outline: rgb(214, 194, 183);
     border: 1px rgb(194, 171, 159);
 }
 
@@ -159,5 +153,59 @@ a {
     font-family: 'Playfair Display', serif;
     color: rgb(53, 54, 58);
     font-size: 1.6rem;
-    font-weight: 500;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(214, 194, 183);
+    padding-left: 40px;
+    padding-right: 60px;
+}
+
+.footer img {
+    width: 250px;
+    height: 200px;
+}
+
+.phone img,
+.email img,
+.insta img {
+    width: 20px;
+    height: 20px;
+}
+
+.phone{
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-bottom: 10px;
+}
+
+.email {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 22px;
+    padding-bottom: 10px;
+}
+
+.insta {
+    display: grid;
+    grid-template-columns: auto auto;
+}
+
+.phone p,
+.email p,
+.insta p {
+    font-family: 'Playfair Display', serif;
+    color: rgb(53, 54, 58);
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.phone p,
+.insta p {
+    margin-right: 13px;
 }
