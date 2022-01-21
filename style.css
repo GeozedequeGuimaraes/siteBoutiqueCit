@@ -209,3 +209,15 @@ a {
 .insta p {
     margin-right: 13px;
 }
+
+@media screen and (max-width: 1080px) {
+
+.produtos {
+    flex-direction: column;
+}
+
+.produto-colar{
+    padding-bottom: 25px;
+}
+
+}
