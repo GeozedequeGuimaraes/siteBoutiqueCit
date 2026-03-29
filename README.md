@@ -19,15 +19,10 @@
 ---
 
 ## Demo
-![Demo](screenshots/demo.gif)
-
-## Preview
 
 <div align="center">
 
-| Desktop | Mobile |
-|:---:|:---:|
-| <img src="screenshots/01-fullpage-desktop.png" alt="Fullpage Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Fullpage Mobile" width="100%"/> |
+![Demo](screenshots/demo.gif)
 
 </div>
 
@@ -36,49 +31,61 @@
 ## Funcionalidades
 
 - **Layout responsivo** — desktop, tablet e mobile
-- **Menu hamburger** — para dispositivos mobile
-- **Scroll suave** — entre seções
-- **Hover animado** — nos cards de produtos e links do menu
-- **Gradientes e sombras** — para visual sofisticado
+- - **Menu hamburger** — para dispositivos mobile
+  - - **Scroll suave** — entre seções
+    - - **Hover animado** — nos cards de produtos e links do menu
+      - - **Gradientes e sombras** — para visual sofisticado
+       
+        - ---
 
----
+        ## Tecnologias
 
-## Tecnologias
+        - **HTML5** — estrutura semântica das páginas
+        - - **CSS3** — Flexbox, Media Queries, Gradientes e Transições
+          - - **JavaScript** — toggle do menu mobile
+            - - **Google Fonts** — Playfair Display
+             
+              - ---
 
-- **HTML5** — estrutura semântica das páginas
-- **CSS3** — Flexbox, Media Queries, Gradientes e Transições
-- **JavaScript** — toggle do menu mobile
-- **Google Fonts** — Playfair Display
+              ## Estrutura do Projeto
 
----
+              ```
+              siteBoutiqueCit/
+              ├── index.html
+              ├── style.css
+              ├── imagens/
+              └── screenshots/
+              ```
 
-## Estrutura do Projeto
+              ---
 
-```
-siteBoutiqueCit/
-├── index.html
-├── style.css
-├── imagens/
-└── screenshots/
-```
+              ## Como Rodar
 
----
+              Basta abrir o `index.html` no navegador — sem dependências ou instalação necessária.
 
-## Como Rodar
+              ---
 
-Basta abrir o `index.html` no navegador — sem dependências ou instalação necessária.
+              ## Screenshots
 
----
+              <div align="center">
 
-## Autor
+              | Desktop | Mobile |
+              |:---:|:---:|
+              | <img src="screenshots/01-fullpage-desktop.png" alt="Fullpage Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Fullpage Mobile" width="100%"/> |
 
-<div align="center">
+              </div>
 
-**Geozedeque Guimarães**
+              ---
 
-Estudante de Ciência da Computação — CIn-UFPE
+              ## Autor
 
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+              <div align="center">
 
-</div>
+              **Geozedeque Guimarães**
+
+              Estudante de Ciência da Computação — CIn-UFPE
+
+              [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
+              [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+
+              </div>
