@@ -32,11 +32,11 @@
 
 ## ✨ Funcionalidades
 
-- 📐 **Layout responsivo** — desktop, tablet e mobile
-- 🍔 **Menu hamburger** — para dispositivos mobile
-- 🖱️ **Scroll suave** — entre seções
-- ✨ **Hover animado** — nos cards de produtos e links do menu
-- 🎨 **Gradientes e sombras** — para visual sofisticado
+- **Layout responsivo** — desktop, tablet e mobile
+- **Menu hamburger** — para dispositivos mobile
+- **Scroll suave** — entre seções
+- **Hover animado** — nos cards de produtos e links do menu
+- **Gradientes e sombras** — para visual sofisticado
 
 ---
 
