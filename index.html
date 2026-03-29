@@ -4,80 +4,105 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Boutique Cit | Joias Exclusivas</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap" rel="stylesheet">
 </head>
 
 <body>
 
     <header class="header">
         <nav class="menu">
-            <img src="imagens/logo-branca.svg" alt="">
-            <ul>
-                <li><a href="#skills">Home</a></li>
-                <li><a href="#skills">Produtos</a></li>
-                <li><a href="#skills">Contatos</a></li>
+            <img src="imagens/logo-branca.svg" alt="Logo Boutique Cit">
+            <button class="menu-toggle" aria-label="Abrir menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="menu-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#produtos">Produtos</a></li>
+                <li><a href="#contato">Contato</a></li>
             </ul>
         </nav>
 
-       <section class="banner">
-           <div class="banner-text">
-            <p>Intensifique seu brilho</p>
-           </div>
-       </section>
+        <section id="home" class="banner">
+            <div class="banner-text">
+                <p>Intensifique seu brilho</p>
+                <span class="subtitulo">Joias feitas para quem brilha</span>
+            </div>
+        </section>
     </header>
 
-    <div class="section-produto">
+    <section class="section-destaque">
+        <div class="destaque-texto">
+            <div class="destaque-linha"></div>
+            <h2>Elegância em cada detalhe</h2>
+            <p>
+                Cada peça da Boutique Cit é cuidadosamente selecionada para refletir sofisticação e exclusividade.
+                Descubra joias que contam histórias e complementam o seu estilo.
+            </p>
+        </div>
+    </section>
+
+    <div id="produtos" class="section-produto">
         <p class="produto-titulo">Produtos</p>
+        <p class="produto-subtitulo">Nossa coleção exclusiva</p>
         <section class="produtos">
-            <div class="produto-anel">
-                <div class="anel">
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="imagens/anel.png" alt="Anel de Diamante">
                     <p>Anel de Diamante</p>
-                    <img src="imagens/anel.png" alt="">
                 </div>
-                <button><a href="#">comprar</a></button>
+                <a href="#" class="btn-comprar">comprar</a>
             </div>
 
-            <div class="produto-relogio">
-                <div class="relogio">
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="imagens/relogio.png" alt="Relógio de Ouro">
                     <p>Relógio de Ouro</p>
-                    <img src="imagens/relogio.png" alt="">
                 </div>
-                <button><a href="#">comprar</a></button>
+                <a href="#" class="btn-comprar">comprar</a>
             </div>
 
-            <div class="produto-colar">
-                <div class="colar">
+            <div class="produto-card">
+                <div class="produto-img">
+                    <img src="imagens/colar.png" alt="Colar de Esmeralda">
                     <p>Colar de Esmeralda</p>
-                    <img src="imagens/colar.png" alt="">
                 </div>
-                <button><a href="#">comprar</a></button>
+                <a href="#" class="btn-comprar">comprar</a>
             </div>
         </section>
     </div>
-   
-    <footer class="footer">
-        <img src="imagens/logo-preta.svg" alt="">
-        <div>
-            <div class="phone">
-                <img src="imagens/phone.svg" alt="">
+
+    <footer id="contato" class="footer">
+        <img src="imagens/logo-preta.svg" alt="Logo Boutique Cit">
+        <div class="footer-contato">
+            <div class="contato-item">
+                <img src="imagens/phone.svg" alt="Telefone">
                 <p>(81) 99999-9999</p>
             </div>
-            <div class="email">
-                <img src="imagens/email.svg" alt="">
+            <div class="contato-item">
+                <img src="imagens/email.svg" alt="E-mail">
                 <p>contato@ejoias.com</p>
             </div>
-            <div class="insta">
-                <img src="imagens/instagram.svg" alt="">
+            <div class="contato-item">
+                <img src="imagens/instagram.svg" alt="Instagram">
                 <p>ejoiasboutique</p>
             </div>
         </div>
     </footer>
 
+    <div class="footer-copy">
+        &copy; 2025 Boutique Cit. Todos os direitos reservados.
+    </div>
 
-
+    <script>
+        document.querySelector('.menu-toggle').addEventListener('click', function () {
+            document.querySelector('.menu-links').classList.toggle('active');
+        });
+    </script>
 
 </body>
 
