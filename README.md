@@ -2,7 +2,7 @@
 
 # Boutique Cit
 
-### Site institucional de boutique de joias • HTML + CSS + JavaScript
+### Site institucional de boutique de joias — HTML + CSS + JavaScript
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -14,7 +14,7 @@
 
 ## Sobre o Projeto
 
-**Boutique Cit** é um site institucional de uma boutique de joias, desenvolvido com HTML, CSS e JavaScript puro — projeto introdutório de desenvolvimento web.
+**Boutique Cit** é um site institucional de uma boutique de joias, desenvolvido com HTML, CSS e JavaScript puro. O projeto apresenta um catálogo de produtos com visual elegante, layout responsivo e navegação fluida — pensado como projeto introdutório de desenvolvimento web.
 
 ---
 
@@ -33,49 +33,49 @@
 ## Funcionalidades
 
 - **Layout responsivo** — desktop, tablet e mobile
-- - **Menu hamburger** — para dispositivos mobile
-  - - **Scroll suave** — entre seções
-    - - **Hover animado** — nos cards de produtos e links do menu
-      - - **Gradientes e sombras** — para visual sofisticado
-       
-        - ---
+- **Menu hamburger** — para dispositivos mobile
+- **Scroll suave** — entre seções
+- **Hover animado** — nos cards de produtos e links do menu
+- **Gradientes e sombras** — para visual sofisticado
 
-        ## Tecnologias
+---
 
-        - **HTML5** — estrutura semântica das páginas
-        - - **CSS3** — Flexbox, Media Queries, Gradientes e Transições
-          - - **JavaScript** — toggle do menu mobile
-            - - **Google Fonts** — Playfair Display
-             
-              - ---
+## Tecnologias
 
-              ## Estrutura do Projeto
+- **HTML5** — estrutura semântica das páginas
+- **CSS3** — Flexbox, Media Queries, Gradientes e Transições
+- **JavaScript** — toggle do menu mobile
+- **Google Fonts** — Playfair Display
 
-              ```
-              siteBoutiqueCit/
-              ├── index.html
-              ├── style.css
-              ├── imagens/
-              └── screenshots/
-              ```
+---
 
-              ---
+## Estrutura do Projeto
 
-              ## Como Rodar
+```
+siteBoutiqueCit/
+├── index.html
+├── style.css
+├── imagens/
+└── screenshots/
+```
 
-              Basta abrir o `index.html` no navegador — sem dependências ou instalação necessária.
+---
 
-              ---
+## Como Rodar
 
-              ## Autor
+Basta abrir o `index.html` no navegador — sem dependências ou instalação necessária.
 
-              <div align="center">
+---
 
-              **Geozedeque Guimarães**
+## Autor
 
-              Estudante de Ciência da Computação — CIn-UFPE
+<div align="center">
 
-              [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
-              [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+**Geozedeque Guimarães**
 
-              </div>
+Estudante de Ciência da Computação — CIn-UFPE
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+
+</div>
