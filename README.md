@@ -21,9 +21,7 @@
 ## Demo
 
 <div align="center">
-
-![Demo](screenshots/demo.gif)
-
+  <img src="screenshots/demo.gif" width="600" alt="Demo do site">
 </div>
 
 ---
@@ -31,61 +29,69 @@
 ## Funcionalidades
 
 - **Layout responsivo** — desktop, tablet e mobile
-- - **Menu hamburger** — para dispositivos mobile
-  - - **Scroll suave** — entre seções
-    - - **Hover animado** — nos cards de produtos e links do menu
-      - - **Gradientes e sombras** — para visual sofisticado
-       
-        - ---
+- **Menu hamburger** — para dispositivos mobile
+- **Scroll suave** — entre seções
+- **Hover animado** — nos cards de produtos e links do menu
+- **Gradientes e sombras** — para visual sofisticado
 
-        ## Tecnologias
+---
 
-        - **HTML5** — estrutura semântica das páginas
-        - - **CSS3** — Flexbox, Media Queries, Gradientes e Transições
-          - - **JavaScript** — toggle do menu mobile
-            - - **Google Fonts** — Playfair Display
-             
-              - ---
+## Tecnologias
 
-              ## Estrutura do Projeto
+- **HTML5** — estrutura semântica das páginas
+- **CSS3** — Flexbox, Media Queries, Gradientes e Transições
+- **JavaScript** — toggle do menu mobile
+- **Google Fonts** — Playfair Display
 
-              ```
-              siteBoutiqueCit/
-              ├── index.html
-              ├── style.css
-              ├── imagens/
-              └── screenshots/
-              ```
+---
 
-              ---
+## Estrutura do Projeto
 
-              ## Como Rodar
+```
+siteBoutiqueCit/
+├── index.html          ← página principal
+├── style.css           ← estilos globais e responsivo
+├── imagens/            ← assets de imagem do site
+└── screenshots/        ← capturas de tela e demo GIF
+```
 
-              Basta abrir o `index.html` no navegador — sem dependências ou instalação necessária.
+---
 
-              ---
+## Como Rodar
 
-              ## Screenshots
+1. Clone o repositório
+```bash
+git clone https://github.com/GeozedequeGuimaraes/siteBoutiqueCit.git
+```
+2. Acesse a pasta do projeto
+```bash
+cd siteBoutiqueCit
+```
+3. Abra o arquivo `index.html` diretamente no navegador — sem dependências ou instalação necessária
 
-              <div align="center">
+---
 
-              | Desktop | Mobile |
-              |:---:|:---:|
-              | <img src="screenshots/01-fullpage-desktop.png" alt="Fullpage Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Fullpage Mobile" width="100%"/> |
+## Screenshots
 
-              </div>
+<div align="center">
 
-              ---
+| Desktop | Mobile |
+|:---:|:---:|
+| <img src="screenshots/01-fullpage-desktop.png" alt="Fullpage Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Fullpage Mobile" width="100%"/> |
 
-              ## Autor
+</div>
 
-              <div align="center">
+---
 
-              **Geozedeque Guimarães**
+## Autor
 
-              Estudante de Ciência da Computação — CIn-UFPE
+<div align="center">
 
-              [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
-              [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+**Geozedeque Guimarães**
 
-              </div>
+Estudante de Ciência da Computação — CIn-UFPE
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+
+</div>
