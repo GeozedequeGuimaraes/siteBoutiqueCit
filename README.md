@@ -22,69 +22,69 @@ Boutique Cit é um site institucional de joalheria com catálogo de produtos, la
 
 <div align="center">
 <img src="screenshots/demo.gif" width="600" alt="Demo do site">
-</div>div>
+</div>
 
 ---
 
 ## Funcionalidades
 
 - Layout responsivo para desktop, tablet e mobile
-- - Menu hamburger para dispositivos móveis
-  - - Scroll suave entre seções
-    - - Hover animado nos cards de produtos e links do menu
-     
-      - ---
+- Menu hamburger para dispositivos móveis
+- Scroll suave entre seções
+- Hover animado nos cards de produtos e links do menu
 
-      ## Tecnologias
+---
 
-      - HTML5 com estrutura semântica
-      - - CSS3 com Flexbox, media queries, gradientes e transições
-        - - JavaScript para toggle do menu mobile
-          - - Google Fonts (Playfair Display)
-           
-            - ---
+## Tecnologias
 
-            ## Estrutura
+- HTML5 com estrutura semântica
+- CSS3 com Flexbox, media queries, gradientes e transições
+- JavaScript para toggle do menu mobile
+- Google Fonts (Playfair Display)
 
-            ```
-            siteBoutiqueCit/
-            ├── index.html
-            ├── style.css
-            ├── imagens/
-            └── screenshots/
-            ```
+---
 
-            ---
+## Estrutura
 
-            ## Como executar
+```
+siteBoutiqueCit/
+├── index.html
+├── style.css
+├── imagens/
+└── screenshots/
+```
 
-            Clone o repositório e abra o `index.html` diretamente no navegador. Sem dependências ou instalação necessária.
+---
 
-            ```bash
-            git clone https://github.com/GeozedequeGuimaraes/siteBoutiqueCit.git
-            ```
+## Como executar
 
-            ---
+Clone o repositório e abra o `index.html` diretamente no navegador. Sem dependências ou instalação necessária.
 
-            ## Screenshots
+```bash
+git clone https://github.com/GeozedequeGuimaraes/siteBoutiqueCit.git
+```
 
-            <div align="center">
+---
 
-            | Desktop | Mobile |
-            |:---:|:---:|
-            | <img src="screenshots/01-fullpage-desktop.png" alt="Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Mobile" width="100%"/> |
+## Screenshots
 
-            </div>
+<div align="center">
 
-            ---
+| Desktop | Mobile |
+|:---:|:---:|
+| <img src="screenshots/01-fullpage-desktop.png" alt="Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Mobile" width="100%"/> |
 
-            ## Autor
+</div>
 
-            <div align="center">
+---
 
-            Geozedeque Guimarães — Estudante de Ciência da Computação, CIn-UFPE
+## Autor
 
-            [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
-            [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+<div align="center">
 
-            </div>
+Geozedeque Guimarães — Estudante de Ciência da Computação, CIn-UFPE
+
+[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
+
+</div>
