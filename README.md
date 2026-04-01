@@ -2,7 +2,7 @@
 
 # Boutique Cit
 
-### Site institucional de boutique de joias — HTML + CSS + JavaScript
+Site institucional de boutique de joias — HTML, CSS e JavaScript
 
 [![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 [![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)](https://developer.mozilla.org/pt-BR/docs/Web/CSS)
@@ -12,86 +12,79 @@
 
 ---
 
-## Sobre o Projeto
+## Sobre o projeto
 
-**Boutique Cit** é um site institucional de uma boutique de joias, desenvolvido com HTML, CSS e JavaScript puro. O projeto apresenta um catálogo de produtos com visual elegante, layout responsivo e navegação fluida — pensado como projeto introdutório de desenvolvimento web.
+Boutique Cit é um site institucional de joalheria com catálogo de produtos, layout responsivo e navegação fluida. Feito com HTML, CSS e JavaScript puro, sem frameworks. Projeto introdutório de desenvolvimento web.
 
 ---
 
 ## Demo
 
 <div align="center">
-  <img src="screenshots/demo.gif" width="600" alt="Demo do site">
-</div>
+<img src="screenshots/demo.gif" width="600" alt="Demo do site">
+</div>div>
 
 ---
 
 ## Funcionalidades
 
-- **Layout responsivo** — desktop, tablet e mobile
-- **Menu hamburger** — para dispositivos mobile
-- **Scroll suave** — entre seções
-- **Hover animado** — nos cards de produtos e links do menu
-- **Gradientes e sombras** — para visual sofisticado
+- Layout responsivo para desktop, tablet e mobile
+- - Menu hamburger para dispositivos móveis
+  - - Scroll suave entre seções
+    - - Hover animado nos cards de produtos e links do menu
+     
+      - ---
 
----
+      ## Tecnologias
 
-## Tecnologias
+      - HTML5 com estrutura semântica
+      - - CSS3 com Flexbox, media queries, gradientes e transições
+        - - JavaScript para toggle do menu mobile
+          - - Google Fonts (Playfair Display)
+           
+            - ---
 
-- **HTML5** — estrutura semântica das páginas
-- **CSS3** — Flexbox, Media Queries, Gradientes e Transições
-- **JavaScript** — toggle do menu mobile
-- **Google Fonts** — Playfair Display
+            ## Estrutura
 
----
+            ```
+            siteBoutiqueCit/
+            ├── index.html
+            ├── style.css
+            ├── imagens/
+            └── screenshots/
+            ```
 
-## Estrutura do Projeto
+            ---
 
-```
-siteBoutiqueCit/
-├── index.html          ← página principal
-├── style.css           ← estilos globais e responsivo
-├── imagens/            ← assets de imagem do site
-└── screenshots/        ← capturas de tela e demo GIF
-```
+            ## Como executar
 
----
+            Clone o repositório e abra o `index.html` diretamente no navegador. Sem dependências ou instalação necessária.
 
-## Como Rodar
+            ```bash
+            git clone https://github.com/GeozedequeGuimaraes/siteBoutiqueCit.git
+            ```
 
-1. Clone o repositório
-```bash
-git clone https://github.com/GeozedequeGuimaraes/siteBoutiqueCit.git
-```
-2. Acesse a pasta do projeto
-```bash
-cd siteBoutiqueCit
-```
-3. Abra o arquivo `index.html` diretamente no navegador — sem dependências ou instalação necessária
+            ---
 
----
+            ## Screenshots
 
-## Screenshots
+            <div align="center">
 
-<div align="center">
+            | Desktop | Mobile |
+            |:---:|:---:|
+            | <img src="screenshots/01-fullpage-desktop.png" alt="Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Mobile" width="100%"/> |
 
-| Desktop | Mobile |
-|:---:|:---:|
-| <img src="screenshots/01-fullpage-desktop.png" alt="Fullpage Desktop" width="100%"/> | <img src="screenshots/03-fullpage-mobile.png" alt="Fullpage Mobile" width="100%"/> |
+            </div>
 
-</div>
+            ---
 
----
+            ## Autor
 
-## Autor
+            <div align="center">
 
-<div align="center">
+            Geozedeque Guimarães — Estudante de Ciência da Computação, CIn-UFPE
 
-**Geozedeque Guimarães**
+            [![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
+            [![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
 
-Estudante de Ciência da Computação — CIn-UFPE
-
-[![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)](https://github.com/GeozedequeGuimaraes)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://linkedin.com/in/geozedeque-guimaraes)
-
-</div>
+            </div>
